@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 2997158864174378353}
   - component: {fileID: 2997158864174378352}
   - component: {fileID: 2997158864174378349}
-  - component: {fileID: 1206835790292526838}
+  - component: {fileID: -3471549216436918349}
   m_Layer: 0
   m_Name: SphereMoveY
   m_TagString: Untagged
@@ -187,7 +187,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   _hasSpawned: 0
---- !u!114 &1206835790292526838
+--- !u!114 &-3471549216436918349
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2997158864174378348}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f74aedd71d9a4f55b3ce499326d45fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ad408b25fc5a054ba28ca1f9dd57371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SyncSettings:
@@ -204,7 +204,8 @@ MonoBehaviour:
     To: 3
     Timing: 0
     Interval: 0.1
-  ClientAuthority: 0
-  LocalPositionSensitivity: 0.01
-  LocalRotationSensitivity: 0.01
-  LocalScaleSensitivity: 0.01
+  target: {fileID: 2997158864174378353}
+  useLocalSpace: 1
+  clientAuthority: 0
+  clientSyncRate: 20
+  showDebugGui: 0

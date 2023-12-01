@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 6660102892434074098}
   - component: {fileID: 6660102892434074109}
   - component: {fileID: 6660102892434074110}
-  - component: {fileID: 8348515550466539155}
+  - component: {fileID: 6516299055325760072}
   m_Layer: 0
   m_Name: SphereMoveWander
   m_TagString: Untagged
@@ -187,7 +187,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   _hasSpawned: 0
---- !u!114 &8348515550466539155
+--- !u!114 &6516299055325760072
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6660102892434074099}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f74aedd71d9a4f55b3ce499326d45fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ad408b25fc5a054ba28ca1f9dd57371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SyncSettings:
@@ -204,7 +204,8 @@ MonoBehaviour:
     To: 3
     Timing: 0
     Interval: 0.1
-  ClientAuthority: 0
-  LocalPositionSensitivity: 0.01
-  LocalRotationSensitivity: 0.01
-  LocalScaleSensitivity: 0.01
+  target: {fileID: 6660102892434074098}
+  useLocalSpace: 1
+  clientAuthority: 0
+  clientSyncRate: 20
+  showDebugGui: 0

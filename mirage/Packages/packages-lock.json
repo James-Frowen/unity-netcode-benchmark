@@ -7,6 +7,15 @@
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
+    "com.james-frowen.position-sync": {
+      "version": "https://github.com/James-Frowen/NetworkPositionSync.git?path=/Assets/NetworkPositionSync#v6.0.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.miragenet.mirage": "131.0.0"
+      },
+      "hash": "6f680455d9f7e1b02ed831a62dfff5615f845a4a"
+    },
     "com.miragenet.mirage": {
       "version": "146.6.1",
       "depth": 0,

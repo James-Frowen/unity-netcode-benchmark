@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.james-frowen.position-sync": "https://github.com/James-Frowen/NetworkPositionSync.git?path=/Assets/NetworkPositionSync#v6.0.0",
     "com.miragenet.mirage": "146.6.1",
     "com.stinkysteak.netcode-benchmarker-util": "https://github.com/StinkySteak/netcode-benchmarker-util.git",
     "com.stinkysteak.simulationtimer": "https://github.com/StinkySteak/Unity-Simulation-Timer.git",
